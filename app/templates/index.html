@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video chat</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="{% static 'styles/tap.css' %}">
+   
+   
+   
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+     
+    {% block content %}
+
+    {% endblock content %}</div>
+    
+</body>
+
+<script type="text/javascript" src="{% static 'boy/AgoraRTC_N-4.11.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/script.js' %}" ></script>
+
+
+</html>
